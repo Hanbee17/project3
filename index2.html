@@ -3,35 +3,32 @@ Unlike the other pages, this page uses an extrenally hosted (CDN) verison of thr
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Art 109 Three.js Boilerplate</title>
-    <link rel="stylesheet" href="./css/style2.css" />
 
-    <!-- Loading three.js scource-->
-    <script src="https://ajax.googleapis.com/ajax/libs/threejs/r84/three.min.js"></script>
-  </head>
-  <body>
-    <!--These divs contain the overlay text and are made invisible by functions within the client3.js script.-->
-    <div id="blocker">
-      <div id="instructions">
-        <br />
-        <h1>Art 109 Three.js Pointer Lock Controls with Image Display</h1>
-        <h2 style="font-size:36px">
-          Click To Play
-        </h2>
-        <p class="move-mid">
-          Move: WASD<br />
-          Jump: SPACE<br />
-          Look: MOUSE
-        </p>
-        <p class="move-mid">
-          <a href="../../">Back to main page</a>
-        </p>
-      </div>
-    <!--Loading scene script which will place scene here on the page display.-->
-    <script src="./scripts/client.js" type="module"></script>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Art 109 Three.js Boilerplate</title>
+  <link rel="stylesheet" href="./css/style2.css" />
+
+  <!-- Loading three.js scource-->
+  <script src="https://ajax.googleapis.com/ajax/libs/threejs/r84/three.min.js"></script>
+</head>
+
+<body>
+  <!--These divs contain the overlay text and are made invisible by functions within the client3.js script.-->
+
+  <!--Loading scene script which will place scene here on the page display.-->
+  <script src="./scripts/client2.js" type="module"></script>
+  <!--client2.js selects the div with an id of "space" and places the scene within it.-->
+  <div id="space"></div>
+  <br><br>
+  <p class="move-mid">
+    <a href="../../">Back to main page</a>
+    <br><br>
+    <a href="index3.html">Artist's Statment</a>
+  </p>
+
+</body>
+
 </html>
