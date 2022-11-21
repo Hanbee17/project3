@@ -10,6 +10,8 @@ import * as THREE from "../build/three.module.js";
 import { OrbitControls } from "../src/OrbitControls.js";
 import { GLTFLoader } from "../src/GLTFLoader.js";
 
+//Add snowball effect
+
 //Identify div in HTML to place scene
 var container = document.getElementById("space");
 
