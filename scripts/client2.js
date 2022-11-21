@@ -24,7 +24,7 @@ const camera = new THREE.PerspectiveCamera(
 const renderer = new THREE.WebGLRenderer();
 renderer.setClearColor(0xdfdfdf);
 renderer.setPixelRatio(window.devicePixelRatio);
-renderer.setSize(window.innerWidth / 2, window.innerHeight / 2);
+renderer.setSize(window.innerWidth*0.9, window.innerHeight*0.9);
 //renderer.setSize(400, 800);
 
 // Add scene to gltf.html
@@ -50,8 +50,8 @@ const loader = new GLTFLoader().load(
     // set position and scale
     mesh = gltf.scene;
     mesh.position.set(0, 0, 0);
-    mesh.rotation.set(45, 0, 0);
-    mesh.scale.set(.2, .2, .2); // <-- change this to (1, 1, 1) for photogrammetery model
+    mesh.rotation.set(0.2, 0, 0);
+    mesh.scale.set(0.35, 0.35, 0.35); // <-- change this to (1, 1, 1) for photogrammetery model
     // Add model to scene
     scene.add(mesh);
   },

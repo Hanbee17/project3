@@ -65,7 +65,9 @@ a {
   cursor: pointer;
 }
 
-#spcae {
-  margin-top: 20%;
-  
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: auto;
 }
